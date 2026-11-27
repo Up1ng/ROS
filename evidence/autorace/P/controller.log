@@ -1,0 +1,8 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-11-27-06-41-51-003861-be8a1ec32cc4-887
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [lane_controller-1]: process started with pid [890]
+[lane_controller-1] [INFO] [1795761711.293162280] [lane_controller]: camera timeout
+[lane_controller-1] [INFO] [1795761711.398010472] [lane_controller]: tracking lane
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [lane_controller-1]: sending signal 'SIGINT' to process[lane_controller-1]
+[INFO] [lane_controller-1]: process has finished cleanly [pid 890]

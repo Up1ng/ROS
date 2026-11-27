@@ -1,0 +1,31 @@
+lane_controller:
+  ros__parameters:
+    use_sim_time: true
+    speed: 0.09
+    kp: 2.1
+    ki: 0.0
+    kd: 0.0
+    max_angular: 0.95
+    integral_limit: 0.5
+    derivative_tau: 0.12
+    max_dt: 0.45
+    roi_top: 0.38
+    roi_bottom: 0.94
+    target_x: 0.5
+    yellow_left: true
+    yellow_lower: [15, 90, 100]
+    yellow_upper: [42, 255, 255]
+    white_lower: [0, 0, 228]
+    white_upper: [179, 62, 255]
+    camera_height: 0.14
+    camera_pitch: 0.20
+    camera_hfov: 1.51843645
+    near_radius: 0.24
+    far_radius: 0.85
+    target_radius: 0.46
+    min_width_m: 0.18
+    max_width_m: 0.49
+    scan_count: 28
+    min_pairs: 4
+    image_timeout: 0.35
+    wall_timeout: 1.1

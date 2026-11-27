@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+rootdir: /team/src/lane_controller
+plugins: ament-copyright-0.17.5, launch-testing-ros-0.26.13, launch-testing-3.4.12, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-xmllint-0.17.5, ament-lint-0.17.5, colcon-core-0.21.3
+collected 6 items
+
+../../team/src/lane_controller/test/test_control.py ......               [100%]
+
+============================== 6 passed in 0.09s ===============================
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-11-27-06-42-05-729094-e8aa798ffa20-494
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [lane_controller-1]: process started with pid [497]
+[lane_controller-1] [INFO] [1795761725.974152797] [lane_controller]: camera timeout
+[lane_controller-1] [INFO] [1795761726.273711251] [lane_controller]: tracking lane
+Left target: positive angular.z (0.09, 0.1690451639916599)
+[lane_controller-1] [INFO] [1795761726.698238659] [lane_controller]: lane lost
+Both borders gone: zero Twist
+[lane_controller-1] [INFO] [1795761727.123899550] [lane_controller]: tracking lane
+[lane_controller-1] [INFO] [1795761727.544190591] [lane_controller]: invalid or stale image timestamp
+Old but valid image: zero Twist
+[lane_controller-1] [INFO] [1795761727.962936193] [lane_controller]: tracking lane
+[lane_controller-1] [INFO] [1795761729.410670657] [lane_controller]: camera timeout
+Clock and camera paused: zero Twist
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [lane_controller-1]: sending signal 'SIGINT' to process[lane_controller-1]
+[INFO] [lane_controller-1]: process has finished cleanly [pid 497]

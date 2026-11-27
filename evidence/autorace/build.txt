@@ -1,0 +1,8 @@
+Starting >>> lane_controller
+Starting >>> robot_bringup
+Starting >>> robot_description
+Finished <<< lane_controller [0.58s]
+Finished <<< robot_description [0.83s]
+Finished <<< robot_bringup [1.00s]
+
+Summary: 3 packages finished [1.09s]
